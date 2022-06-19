@@ -1155,4 +1155,34 @@ nav{
   font-size: 35px;
 }
 
+
+.vectorFirstSection{
+  width: 740px;
+  height: 485px;
+  top: 120px;
+  left: -15%;
+}
+
+.logo{
+  width: 180px;
+  height: 137px;
+  position: absolute;
+  top: 25px;
+  left: 3%;
+}
+
+.pointsFirstSection{
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  top: 140px;
+  left: 1%;
+}
+
+.ellipseFirstSection{
+  top: -150px;
+  right: -20%;
+  z-index: -2;
+}
+
 }
