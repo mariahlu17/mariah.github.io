@@ -1487,12 +1487,14 @@ footer h1{
 }
 
 
+
 .buttonSecondSection{
-  width: 243px;
-  height: 63px;
+  width: 263px;
+  height: 70px;
   padding:16px 11px; 
   font:20px Arial, Helvetica, sans-serif;
   left: 0px;
+  font-weight: 800;
 }
 
 .iphone13SecondSection{
@@ -1527,10 +1529,10 @@ footer h1{
 
 .button{
     width: 263px;
-    height: 63px;
+    height: 70px;
     padding:16px 11px; 
     font:20px Arial, Helvetica, sans-serif; 
-    font-weight:bold; 
+    font-weight: 800;
     margin-left: 25px;
   }
   .iphone13Pro{
