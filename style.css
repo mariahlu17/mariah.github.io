@@ -1,4 +1,5 @@
 
+
 html {
   font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -217,7 +218,7 @@ nav{
 
 .pointsH2{
     position: absolute;
-    top: 400px;
+    top: 389px;
     left: 190px;
 }
 
@@ -244,6 +245,7 @@ nav{
     margin-bottom: 17px;
     width: 100%;
     height: 95px;
+    /* background-image: url("./animationTextSmall.png"); */
     background-image: url("./animationText.png");
     animation: 20s anim1 infinite linear;
     animation-delay: 2s;
@@ -710,7 +712,6 @@ nav{
     align-items: center;
     justify-content: center;
     
-
 }
 
 .fifthSection h1{
@@ -1488,18 +1489,18 @@ footer h1{
 
   
 .firstSection h1{
-    font-size: 54px;
+    font-size: 50px;
     padding-bottom: 50px;
 }
 
 .firstSection h2{
-    font-size: 37px;
+    font-size: 33px;
     margin-top: 20px;
 }
 
 .moreFirstSection{
   padding:17px 11px; 
-  width: 301.97px;
+  width: 295.97px;
   height: 72px;
   font-size: 20px;
   /* font:20px Arial, Helvetica, sans-serif;  */
@@ -1523,7 +1524,7 @@ footer h1{
 
 .orderFirstSection{
   padding:20px 11px; 
-  width: 301.97px;
+  width: 295.97px;
   height: 72px;
   font-size: 20px;
   /* font:20px Arial, Helvetica, sans-serif;  */
@@ -1592,29 +1593,29 @@ footer h1{
 }
 
 .thirdSection h1{
-  font-size: 43px;
+  font-size: 40px;
 }
 
 .thirdSection h2{
-  font-size: 33px;
+  font-size: 30px;
   font-weight: 800;
   margin-left: 25px;
 }
 
 .aboutThirdSection{
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400px;
   margin-left: 25px;
 }
 
 .button{
-    width: 263px;
+    width: 253px;
     height: 70px;
     padding:16px 11px; 
-    font-size: 20px;
+    font-size: 18px;
     /* font:20px Arial, Helvetica, sans-serif;  */
     font-weight: 800;
-    margin-left: 25px;
+    margin-left: 65px;
   }
   .iphone13Pro{
     width: 35%;
@@ -1637,6 +1638,207 @@ footer h1{
     height: auto;
   }
 
+  .fourthSection h1{
+    font-size: 40px;
+  }
+
+  
+  .consultationH2{
+    font-size: 23px;
+    height:70px;
+    margin-left: 25px;
+  }
+
+  .consultationText{
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 0px;
+    height:38.13px;
+  }
+
+  .consultationImg{
+    width:98.68px;
+    height: 116.41px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 6px;
+  }
+
+  .consultation{
+    width: 410.24px;
+    height: 340.89px;
+  }
+
+  .tracking{
+    width: 410.24px;
+    height: 340.89px;
+  }
+
+  .trackingH2{
+    font-size: 23px;
+    margin-top: -10px;
+    margin-left: 25px;
+    height: 65px;
+  }
+
+  .trackingText{
+    font-size: 18px;
+    margin-left: 25px;
+    height: 95px;
+  }
+
+  .trackingImg{
+    width: 98.68px;
+    height: 116.41px;
+    margin-left: 25px;
+    margin-top: 6px;
+  }
+
+  .detailInfo{
+    width: 410.24px;
+    height: 340.89px;
+  }
+
+  .detailInfoImg{
+    width: 98.68px;
+    height: 116.41px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .detailInfoH2{
+    font-size: 23px;
+    margin-left: 25px;
+  }
+
+  .detailInfoText{
+    font-size: 20px;
+    margin-left: 25px;
+    height: 39px;
+}
+
+.emergencyCare{
+  width: 410.24px;
+  height: 340.89px;
+}
+
+.emergencyCareImg{
+    width: 98.68px;
+    height: 80.94px;
+    margin-left: 25px;
+}
+
+.emergencyCareH2{
+    font-size: 23px;
+   margin-left: 25px;
+   margin-top: 25px;
+}
+
+.emergencyCareText{
+  font-size: 19px;
+  margin-left: 25px;
+  height: 40px;
+}
+
+
+.fifthSection h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+
+#flastname{
+  width: 355px;
+  height: 90px;
+} 
+
+#fname{
+  width: 355px;
+  height: 90px;
+}
+
+#fmail{
+  width: 725px;
+  height: 90px;
+}
+
+#ftel{
+  width: 725px;
+  height: 90px;
+
+}
+
+
+#fsubbutton{
+  width: 250px;
+  height: 72.86px;
+  font-size: 23px;
+}
+
+
+
+.sixthSectionMainText{
+  width: 334px;
+  height: auto;
+}
+
+.sixthSection h1{
+  font-size: 40px;
+}
+
+.answers{
+  font-size: 30px;
+}
+
+.questions{
+  width:580px;
+  height: auto;
+}
+
+.questionFirst{
+  width: 278px;
+}
+
+.active{
+width: 570px;
+}
+
+
+.questions p{
+font-size: 25px;
+}
+
+
+.questionSecond{
+width: 570px;
+height:auto;
+}
+
+.questionThird{
+width: 570px;
+
+}
+
+
+.questionFourth{
+width: 430px;
+height:auto;
+}
+
+.active{
+width: 570px;
+}
+
+.questionFifth{
+width: 570px;
+}
+
+
+
+footer h1{
+font-size: 33px;
+}
+
   .sixthSection{
     margin-top: 230px;
   }
@@ -1645,4 +1847,368 @@ footer h1{
     left: -400px;
   }
 
+
 }
+
+@media (max-width: 1320px) { 
+
+  
+  .firstSection h1{
+      font-size: 45px;
+      padding-bottom: 50px;
+  }
+  
+  .firstSection h2{
+      font-size: 30px;
+      margin-top: 15px;
+  }
+  
+  .moreFirstSection{
+    width: 265.97px;
+    height: 70px;
+    font-size: 18px;
+  }
+  
+  
+  .firstSection{
+    height: auto;
+    margin-bottom: 150px;
+  }
+  
+  .orderFirstSection{
+    width: 265.97px;
+    height: 70px;
+    font-size: 18px;
+  }
+  
+  .phoneArmFirstSection{
+      top: 190px;
+      right: -5%;
+      width: 566px;
+      height: 432px; 
+      
+  }
+  
+  .ellipseFirstSection{
+      top: 0px;
+      right: -20%;
+  }
+  
+  .vectorArmFirstSection{
+      top: 550px;
+      right: -5%;
+      z-index: 1;
+  }
+  
+  .pointsH2{
+    top: 370px;
+    left: 190px;
+    height: 110px;
+  }
+
+
+.secondSectionFirstText{
+    font-size: 40px;
+}
+
+  .animation {
+    margin-top: 57px;
+    
+ }
+ 
+  .secondSectionSecondText{
+    font-size: 20px;
+    
+  }
+
+
+  .secondSection{
+    position: relative;
+    left: -30px;
+  }
+  
+  
+  .animation {
+    margin-top: 37px;
+  }
+  
+  .buttonSecondSection{
+    width: 243px;
+    height: 70px;
+  }
+  
+  .iphone13SecondSection{
+    right: 9%;
+    top: 870px;
+  }
+  
+  .vectorSecondSection{
+    top: 1050px;
+    left: -10%;
+  }
+  
+  .vectorSecondSectionBackIphone{
+    top: 750px;
+    right: -25%;
+  }
+
+  .thirdSection{
+    margin-top: 120px;
+    margin-bottom: 70px;
+  }
+  
+  .thirdSection h1{
+    font-size: 32px;
+  }
+  
+  .thirdSection h2{
+    font-size: 25px;
+  }
+  
+  .aboutThirdSection{
+    font-size: 20px;
+  }
+  
+  .button{
+      width: 233px;
+      font-size: 18px;
+      margin-left: 95px;
+  }
+
+  .thirdSectionText{
+    padding-top: 0px;
+    right: -15%;
+  }
+
+    .iphone13Pro{
+      width: 35%;
+      height: auto;
+      top: 1600px;
+      left: 120px;
+    }
+  
+    .ellipseThirdSection{
+      width: 60%;
+      height: auto;
+      top: 1590px;
+      left: -20px;
+    }
+  
+    .vectorThirdSection{
+      top: 1660px;
+    }
+  
+    .fourthSection{
+      margin-top: 200px;
+    }
+
+    .fourthSection h1{
+      font-size: 35px;
+    }
+  
+    
+    .consultationH2{
+      font-size: 20px;
+      height:60px;
+      margin-left: 25px;
+    }
+  
+    .consultationText{
+      font-size: 18px;
+      margin-left: 25px;
+      margin-top: 0px;
+      height:38.13px;
+    }
+  
+    .consultationImg{
+      width:88.68px;
+      height: 106.41px;
+      margin-bottom: 20px;
+      margin-left: 25px;
+      margin-top: 6px;
+    }
+  
+    .consultation{
+      width: 390.24px;
+      height: 320.89px;
+    }
+  
+    .tracking{
+      width: 390.24px;
+      height: 320.89px;
+    }
+  
+    .trackingH2{
+      font-size: 20px;
+      margin-top: -10px;
+      margin-left: 25px;
+      height: 70px;
+    }
+  
+    .trackingText{
+      font-size: 17px;
+      margin-left: 25px;
+      height: 105px;
+    }
+  
+    .trackingImg{
+      width: 88.68px;
+      height: 106.41px;
+    }
+  
+    .detailInfo{
+      width: 390.24px;
+      height: 320.89px;
+    }
+  
+    .detailInfoImg{
+      width: 88.68px;
+      height: 106.41px;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+  
+    .detailInfoH2{
+      font-size: 20px;
+      margin-left: 25px;
+      height: 60px;
+    }
+  
+    .detailInfoText{
+      font-size: 18px;
+      margin-left: 25px;
+      height: 39px;
+  }
+  
+  .emergencyCare{
+    width: 390.24px;
+    height: 320.89px;
+  }
+  
+  .emergencyCareImg{
+      width: 88.68px;
+      height: 70.94px;
+      margin-left: 25px;
+  }
+  
+  .emergencyCareH2{
+      font-size: 20px;
+     margin-left: 25px;
+     margin-top: 25px;
+     height: 60px;
+  }
+  
+  .emergencyCareText{
+    font-size: 17.5px;
+    margin-left: 25px;
+    height: 40px;
+  }
+  
+  .pointsFourthSection{
+    top: 2470px;
+  }
+  
+  .fifthSection h1{
+    font-size: 38px;
+  }
+  
+  
+  #flastname{
+    width: 335px;
+    height: 85px;
+    font-size: 20px;
+  } 
+  
+  #fname{
+    width: 335px;
+    height: 85px;
+    font-size: 20px;
+  }
+  
+  #fmail{
+    width: 680px;
+    height: 85px;
+    font-size: 20px;
+  }
+  
+  #ftel{
+    width: 680px;
+    height: 85px;
+    font-size: 20px;
+  }
+  
+  
+  #fsubbutton{
+    width: 240px;
+    height: 72.86px;
+    font-size: 22px;
+  }
+  
+  
+  .sixthSection h1{
+    font-size: 38px;
+  }
+  
+  .answers{
+    font-size: 28px;
+  }
+  
+  .questions{
+    width:550px;
+  }
+  
+  .questionFirst{
+    width: 230px;
+  }
+  
+  .active{
+  width: 460px;
+  }
+  
+  
+  .questions p{
+  font-size: 20px;
+  }
+  
+  
+  .questionSecond{
+  width: 460px;
+  height:auto;
+  }
+  
+  .questionThird{
+  width: 460px;
+  
+  }
+  
+  
+  .questionFourth{
+  width: 360px;
+  height:auto;
+  }
+  
+  .active{
+  width: 460px;
+  }
+  
+  .questionFifth{
+  width: 460px;
+  }
+  
+  
+  
+  footer h1{
+  font-size: 30px;
+  }
+  
+    .sixthSection{
+      margin-top: 230px;
+    }
+  
+    .TembRights{
+      left: -400px;
+      font-size: 13px;
+    }
+  
+  
+  }
