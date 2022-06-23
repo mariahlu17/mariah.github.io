@@ -1,6 +1,6 @@
 
 html {
-    font-family: Inter;
+  font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
 
@@ -8,7 +8,7 @@ html {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: Inter,Gudea;
+    /* font-family: Inter,Gudea; */
     overflow-x: hidden;
 }
 
@@ -38,7 +38,7 @@ header{
 }
 
 nav{
-    font-family: Inter;
+    /* font-family: Inter; */
     background-color: #ffffff;
     width: 75%;
     border: 3px solid #2247AF;
@@ -49,7 +49,7 @@ nav{
     padding: 20px;
     box-shadow:0px 2px 19px #2248af, inset 0px 0px 1px #ffffff;  
     font-size: 24px;
-    font-family: 'Gudea';
+    /* font-family: 'Gudea'; */
     font-weight: 400px;
     line-height: 120.00000476837158%;
     font-stretch: normal;
@@ -76,11 +76,11 @@ nav{
 .firstSection h2{
     position: relative;
     left: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     color: rgba(34, 71, 175, 1);
     font-size: 40px;
     font-style: normal;
-    font-family:Gudea;
+    /* font-family:Gudea; */
     font-weight:500;
     line-height: 120.00000476837158%;
     font-stretch: normal;
@@ -106,7 +106,8 @@ nav{
   -webkit-border-radius:24px;
   -moz-border-radius:24px; 
   border-radius: 24px; 
-  font:25px Arial, Helvetica, sans-serif; 
+  font-size: 25px;
+  /* font:25px Arial, Helvetica, sans-serif;  */
   font-weight:bold; 
   color:#427ad4; 
   background:#ffffff; 
@@ -136,7 +137,7 @@ nav{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -149,7 +150,7 @@ nav{
   font-size: 25px;
   align-self: auto;
   text-align: center;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-weight: 800;
   line-height: normal;
   font-stretch: normal;
@@ -171,17 +172,18 @@ nav{
 
 .phoneArmFirstSection{
     position: absolute;
-    top: 190px;
+    top: 200px;
     right: -3%;
-    width: 513;
-    height: 582;
+    width: 666px;
+    height: 532px;
 }
 
 .ellipseFirstSection{
     position: absolute;
-    top: -150px;
-    right: -30%;
+    top: -15px;
+    right: -20%;
     z-index: -2;
+    width: 75%;
 }
 
 
@@ -190,6 +192,7 @@ nav{
     top: 150px;
     left: -10%;
     z-index: -1;
+    width: 35%;
 }
 
 .logo{
@@ -206,14 +209,15 @@ nav{
 
 .vectorArmFirstSection{
     position: absolute;
-    top: 710px;
+    top: 670px;
     right: -3%;
     z-index: 1;
+    width: 20%;
 }
 
 .pointsH2{
     position: absolute;
-    top: 410px;
+    top: 400px;
     left: 190px;
 }
 
@@ -261,7 +265,7 @@ nav{
     align-self: auto;
     font-style: normal;
     text-align: justified;
-    font-family: Gudea;
+    /* font-family: Gudea; */
     font-weight: 400px;
     line-height: 125%;
     font-stretch: normal;
@@ -270,8 +274,6 @@ nav{
   }
 
 .buttonSecondSection{
-  position: relative;
-  left: 12px;
   width: 303px;
   height: 73px;
   object-fit: cover;
@@ -282,7 +284,8 @@ nav{
   -webkit-border-radius:24px;
   -moz-border-radius:24px; 
   border-radius: 24px; 
-  font:25px Arial, Helvetica, sans-serif; 
+  font-size: 25px;
+  /* font:25px Arial, Helvetica, sans-serif;  */
   font-weight:bold; 
   color:#427ad4; 
   background:#ffffff; 
@@ -326,7 +329,7 @@ nav{
   font-size: 48px;
   align-self: auto;
   text-align: center;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-weight: 800;
   line-height: normal;
   font-stretch: normal;
@@ -340,8 +343,8 @@ nav{
   font-size: 36px;
   align-self: auto;
   font-style: normal;
-  text-align: left;
-  font-family: Inter;
+  text-align: right;
+  /* font-family: Inter; */
   font-weight: 800;
   line-height: 45px;
   font-stretch: normal;
@@ -357,14 +360,16 @@ nav{
   font-size: 24px;
   align-self: auto;
   font-style: normal;
-  text-align: left;
-  font-family: Gudea;
+  text-align: right;
+  /* font-family: Gudea; */
   font-weight: 400px;
   line-height: 139.9999976158142%;
   font-stretch: normal;
   text-decoration: none;
   padding-bottom: 57px;
   margin-left: 15px;
+  position: relative;
+  right: -70px;
 }
 
 .button{
@@ -387,6 +392,8 @@ nav{
     box-shadow:0px 2px 8px #2b2b2b, inset 0px 0px 1px #ffffff;
     margin-bottom: 15px;
     margin-left: 15px; 
+    position: relative;
+    right: -210px;
   }
 
   .thirdSection a:hover{
@@ -407,12 +414,12 @@ nav{
   }
 
   .thirdSectionText{
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
     position: relative;
-    right: -57%;
+    right: -20%;
     top:100px;
     padding-top: 40px;
     margin-bottom: 150px;
@@ -462,7 +469,7 @@ nav{
     font-size: 48px;
     align-self: auto;
     text-align: center;
-    font-family: Inter;
+    /* font-family: Inter; */
     font-weight: 800;
     line-height: normal;
     font-stretch: normal;
@@ -474,7 +481,7 @@ nav{
     font-size: 24px;
     font-style: normal;
     font-weight: 800;
-    font-family: Inter;
+    /* font-family: Inter; */
     line-height: 56px;
     text-decoration: none;
     margin-left: 5px;
@@ -486,7 +493,7 @@ nav{
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family: Gudea;
+    /* font-family: Gudea; */
     font-weight: 400px;
     line-height: 28px;
     font-stretch: normal;
@@ -539,7 +546,7 @@ nav{
     color: rgba(34, 71, 175, 1);
     font-size: 24px;
     font-style: normal;
-    font-family: Inter;
+    /* font-family: Inter; */
     font-weight: 800;
     line-height: 56px;
     font-stretch: normal;
@@ -554,7 +561,7 @@ nav{
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family: Gudea;
+    /* font-family: Gudea; */
     font-weight: 400px;
     line-height: 28px;
     font-stretch: normal;
@@ -610,7 +617,7 @@ nav{
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family: Inter;
+    /* font-family: Inter; */
     font-weight: 800;
     line-height: 56px;
     font-stretch: normal;
@@ -624,7 +631,7 @@ nav{
     align-self: auto;
     font-style: normal;
     text-align: left;
-    font-family: Gudea;
+    /* font-family: Gudea; */
     font-weight: 400px;
     line-height: 28px;
     font-stretch: normal;
@@ -661,7 +668,7 @@ nav{
     font-size: 24px;
     align-self: auto;
     text-align: left;
-    font-family: Inter;
+    /* font-family: Inter; */
     font-weight: 800;
     line-height: 56px;
     font-stretch: normal;
@@ -675,7 +682,7 @@ nav{
   align-self: auto;
   font-style: normal;
   text-align: left;
-  font-family: Gudea;
+  /* font-family: Gudea; */
   font-weight: 400px;
   line-height: 28px;
   font-stretch: normal;
@@ -712,7 +719,7 @@ nav{
   font-size: 48px;
   align-self: auto;
   text-align: center;
-  font-family: Inter;
+  /* font-family: Inter; */
   font-weight: 800;
   line-height: normal;
   font-stretch: normal;
@@ -730,7 +737,7 @@ nav{
   font-size: 24px;
   align-self: auto;
   text-align: center;
-  font-family: 'Gudea';
+  /* font-family: 'Gudea'; */
   font-weight: 400;
   line-height: normal;
   font-stretch: normal;
@@ -748,7 +755,7 @@ nav{
     background: rgba(34, 71, 175, 0.7);
     border-radius: 30px;
     color: white;
-    font-family: 'Gudea';
+    /* font-family: 'Gudea'; */
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -767,7 +774,7 @@ nav{
   background: rgba(34, 71, 175, 0.7);
   border-radius: 30px;
   color: white;
-  font-family: 'Gudea';
+  /* font-family: 'Gudea'; */
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -785,7 +792,7 @@ nav{
   background: rgba(34, 71, 175, 0.7);
   border-radius: 30px;
   color: white;
-  font-family: 'Gudea';
+  /* font-family: 'Gudea'; */
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -803,7 +810,7 @@ nav{
   background: rgba(34, 71, 175, 0.7);
   border-radius: 30px;
   color: white;
-  font-family: 'Gudea';
+  /* font-family: 'Gudea'; */
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -826,7 +833,8 @@ input::placeholder{
   -webkit-border-radius:24px;
   -moz-border-radius:24px; 
   border-radius: 24px; 
-  font:25px Arial, Helvetica, sans-serif; 
+  font-size: 25px;
+  /* font:25px Arial, Helvetica, sans-serif;  */
   font-weight:bold; 
   color:#427ad4; 
   background:#ffffff; 
@@ -887,7 +895,7 @@ input::placeholder{
   align-self: auto;
   font-style: normal;
   text-align: left;
-  font-family: 'Gudea';
+  /* font-family: 'Gudea'; */
   font-weight: 400px;
   line-height: 129.99999523162842%;
   font-stretch: normal;
@@ -897,9 +905,8 @@ input::placeholder{
 .questions{
   width:760px;
   height: auto;
-  
+  color: rgba(34, 71, 175, 1);
 }
-
 
 .questionFirst{
   width: 318px;
@@ -914,7 +921,8 @@ input::placeholder{
   border-radius: 30px;
   white-space: nowrap;
   margin-bottom: 32px;
- 
+  background-color: #fff;
+  color: rgba(34, 71, 175, 1);
 }
 
 .active{
@@ -931,19 +939,17 @@ input::placeholder{
 }
 
 .questions p{
-  color: rgba(34, 71, 175, 1);
   padding: 23px 50px;
   font-size: 36px;
   align-self: auto;
   font-style: normal;
   text-align: left;
-  font-family: Gudea;
+  /* font-family: Gudea; */
   font-weight: 400px;
   line-height: 129.99999523162842%;
   font-stretch: normal;
   text-decoration: none;
 }
-
 
 
 .questionSecond{
@@ -959,9 +965,8 @@ input::placeholder{
   border-radius: 30px;
   white-space: nowrap;
   margin-bottom: 32px;
+  background-color: #ffffff;
 }
-
-
 
 .answerSecond{
   margin-bottom: 25px;
@@ -985,6 +990,7 @@ input::placeholder{
   border-radius: 30px;
   white-space: nowrap;
   margin-bottom: 32px;
+  background-color: #ffffff;
 }
 
 .answerThird{
@@ -1009,6 +1015,7 @@ input::placeholder{
   border-radius: 30px;
   white-space: nowrap;
   margin-bottom: 32px;
+  background-color: #ffffff;
 }
 
 .active{
@@ -1022,6 +1029,7 @@ input::placeholder{
 
 .active{
   display: block;
+  color:#ffffff;
 }
 
 .questionFifth{
@@ -1037,6 +1045,7 @@ input::placeholder{
   border-radius: 30px;
   white-space: nowrap;
   margin-bottom: 32px;
+  background-color: #ffffff;
 }
 
 .answerFifth{
@@ -1044,8 +1053,18 @@ input::placeholder{
   display: none;
 }
 
+.questions p:hover{
+  color:#ffffff;
+}
+
+.questions div:hover{
+  border: 4px solid #ffffff;
+  background-color: #2247AF;
+}
+
 .active{
   display: block;
+  background: linear-gradient(260.14deg, #427BD5 10.72%, #295ABF 49.17%, #2247AF 89.04%);
 }
 
 .pointsAnswers{
@@ -1066,7 +1085,7 @@ footer{
 }
 
 footer h1{
-  font-family: 'Gudea';
+  /* font-family: 'Gudea'; */
 font-style: normal;
 font-weight: 400;
 font-size: 36px;
@@ -1102,7 +1121,7 @@ margin-bottom: 50px;
   line-height: 28px;
   color: #ffffff;
   position: relative;
-  top: 50px;
+  top: 70px;
   left: -500px;
 }
   
@@ -1143,7 +1162,8 @@ margin-bottom: 50px;
   -webkit-border-radius:28px;
   -moz-border-radius:28px; 
   border-radius: 28px; 
-  font:30px Arial, Helvetica, sans-serif; 
+  font-size: 30px;
+  /* font:30px Arial, Helvetica, sans-serif;  */
   font-weight:bold; 
   margin-right: 15px;
 }
@@ -1155,7 +1175,8 @@ margin-bottom: 50px;
   -webkit-border-radius:28px;
   -moz-border-radius:28px; 
   border-radius: 28px; 
-  font:30px Arial, Helvetica, sans-serif; 
+  font-size: 30px;
+  /* font:30px Arial, Helvetica, sans-serif;  */
   font-weight:bold; 
   margin-right: 15px;
 }
@@ -1214,7 +1235,8 @@ padding:25px 11px;
 -webkit-border-radius:30px;
 -moz-border-radius:30px; 
 border-radius: 30px; 
-font:30px Arial, Helvetica, sans-serif; 
+font-size: 30px;
+/* font:30px Arial, Helvetica, sans-serif;  */
 font-weight:bold;
 margin-bottom: 10px;
 }
@@ -1257,7 +1279,8 @@ margin-bottom: 10px;
   -webkit-border-radius:30px;
   -moz-border-radius:30px; 
   border-radius: 30px; 
-  font:30px Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  /* font:30px Arial, Helvetica, sans-serif; */
 }
 
 
@@ -1420,7 +1443,8 @@ footer h1{
   padding:17px 11px; 
   width: 301.97px;
   height: 72px;
-  font:20px Arial, Helvetica, sans-serif; 
+  font-size: 20px;
+  /* font:20px Arial, Helvetica, sans-serif;  */
   font-weight: 800;
   margin-right: 15px;
 }
@@ -1443,7 +1467,8 @@ footer h1{
   padding:20px 11px; 
   width: 301.97px;
   height: 72px;
-  font:20px Arial, Helvetica, sans-serif; 
+  font-size: 20px;
+  /* font:20px Arial, Helvetica, sans-serif;  */
   font-weight: 800;
   margin-right: 15px;
 }
@@ -1458,8 +1483,8 @@ footer h1{
 
 .ellipseFirstSection{
     position: absolute;
-    top: -150px;
-    right: -42%;
+    top: -50px;
+    right: -27%;
     z-index: -2;
 }
 
@@ -1487,18 +1512,18 @@ footer h1{
 }
 
 
-
 .buttonSecondSection{
   width: 263px;
   height: 70px;
   padding:16px 11px; 
-  font:20px Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  /* font:20px Arial, Helvetica, sans-serif; */
   left: 0px;
   font-weight: 800;
 }
 
 .iphone13SecondSection{
-  right: 10%;
+  right: -50%;
 }
 
 .vectorSecondSection{
@@ -1531,7 +1556,8 @@ footer h1{
     width: 263px;
     height: 70px;
     padding:16px 11px; 
-    font:20px Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    /* font:20px Arial, Helvetica, sans-serif;  */
     font-weight: 800;
     margin-left: 25px;
   }
