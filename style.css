@@ -1,5 +1,4 @@
 
-
 html {
   font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -218,8 +217,9 @@ nav{
 
 .pointsH2{
     position: absolute;
-    top: 389px;
+    top: 432px;
     left: 190px;
+  
 }
 
 .secondSection{
@@ -1552,9 +1552,9 @@ footer h1{
 }
 
 .pointsH2{
-  top: 399px;
+  top: 408px;
   left: 190px;
-  height: 130px;
+  height: 120px;
 }
 
 .secondSectionFirstText{
@@ -1851,8 +1851,10 @@ font-size: 33px;
 }
 
 @media (max-width: 1320px) { 
+  nav{
+    font-size: 20px;
+  }
 
-  
   .firstSection h1{
       font-size: 45px;
       padding-bottom: 50px;
@@ -1863,6 +1865,10 @@ font-size: 33px;
       margin-top: 15px;
   }
   
+.buttonFirstSection{
+  width: 70%;
+}
+
   .moreFirstSection{
     width: 265.97px;
     height: 70px;
@@ -1901,7 +1907,7 @@ font-size: 33px;
   }
   
   .pointsH2{
-    top: 370px;
+    top: 390px;
     left: 190px;
     height: 110px;
   }
