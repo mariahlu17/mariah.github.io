@@ -66,7 +66,7 @@ nav{
 }
 
 .firstSection h1{
-    font-size: 64px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 800;
     color:#2247AF;
@@ -78,7 +78,7 @@ nav{
     left: 25px;
     padding-bottom: 30px;
     color: rgba(34, 71, 175, 1);
-    font-size: 40px;
+    font-size: 35px;
     font-style: normal;
     /* font-family:Gudea; */
     font-weight:500;
@@ -95,7 +95,7 @@ nav{
 
 .moreFirstSection{
   padding:27px 11px; 
-  width: 321.97px;
+  width: 311.97px;
   height: 92px;
   font-style: normal;
   font-weight: 800;
@@ -145,7 +145,7 @@ nav{
 
 .orderFirstSection{
   color: rgba(255, 255, 255, 1);
-  width: 321.97px;
+  width: 311.97px;
   height: 92px;
   font-size: 25px;
   align-self: auto;
@@ -174,22 +174,22 @@ nav{
     position: absolute;
     top: 200px;
     right: -3%;
-    width: 666px;
-    height: 532px;
+    width: 616px;
+    height: 482px;
 }
 
 .ellipseFirstSection{
     position: absolute;
-    top: -25px;
+    top: 65px;
     right: -15%;
     z-index: -2;
-    width: 65%;
+    width: 55%;
 }
 
 
 .vectorFirstSection{
     position: absolute;
-    top: 150px;
+    top: 140px;
     left: -10%;
     z-index: -1;
     width: 35%;
@@ -209,7 +209,7 @@ nav{
 
 .vectorArmFirstSection{
     position: absolute;
-    top: 670px;
+    top: 620px;
     right: -3%;
     z-index: 1;
     width: 20%;
@@ -217,9 +217,9 @@ nav{
 
 .pointsH2{
     position: absolute;
-    top: 432px;
+    top: 395px;
     left: 190px;
-  
+    height: 120px;
 }
 
 .secondSection{
@@ -233,7 +233,7 @@ nav{
 
 .secondSectionFirstText{
     color: #2247AF;
-    font-size: 48px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 800;
     line-height: 1.5;
@@ -263,7 +263,7 @@ nav{
 
   .secondSectionSecondText{
     color: rgba(34, 71, 175, 1);
-    font-size: 24px;
+    font-size: 22px;
     align-self: auto;
     font-style: normal;
     text-align: justified;
@@ -276,7 +276,7 @@ nav{
   }
 
 .buttonSecondSection{
-  width: 303px;
+  width: 285px;
   height: 73px;
   object-fit: cover;
   text-decoration:none; 
@@ -308,7 +308,7 @@ nav{
     top: 1020px;
     right: 15%;
     z-index: 2;
-    width: 35%;
+    width: 32%;
 }
 
 .vectorSecondSection{
@@ -378,7 +378,7 @@ nav{
 }
 
 .button{
-    width: 303px;
+    width: 280px;
     height: 73px;
     object-fit: cover;
     text-decoration:none; 
@@ -434,7 +434,8 @@ nav{
   .iphone13Pro{
     position: absolute;
     top: 2040px;
-    left: 150px;
+    left: 170px;
+    width: 32%;
   }
 
   .ellipseThirdSection{
@@ -472,7 +473,7 @@ nav{
     color: #0B2349;
     width: 100%;
     height: auto;
-    font-size: 48px;
+    font-size: 45px;
     align-self: auto;
     text-align: center;
     /* font-family: Inter; */
@@ -484,7 +485,7 @@ nav{
 
   .consultationH2{
     color: #2247AF;
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 800;
     /* font-family: Inter; */
@@ -494,7 +495,7 @@ nav{
   }
 
   .consultationText{
-    font-size: 20px;
+    font-size: 18px;
     color: rgba(34, 71, 175, 1);
     align-self: auto;
     font-style: normal;
@@ -508,15 +509,15 @@ nav{
   }
 
   .consultationImg{
-    width: 88.68px;
-    height: 106.41px;
+    width: 78.68px;
+    height: 96.41px;
     margin-bottom: 30px;
     margin-left: 5px;
   }
 
   .consultation{
-    width: 420.24px;
-    height: 320.89px;
+    width: 380.24px;
+    height: 280.89px;
     border-radius: 20px;
     -webkit-box-shadow:9px 20px 20px #5597FC, inset 0px 0px 1px #ffffff,9px -8px 20px #5597FC, inset 0px 0px 1px #ffffff; 
     -moz-box-shadow: 9px 20px 20px #5597FC,  inset 0px 0px 1px #ffffff,9px -8px 20px #5597FC, inset 0px 0px 1px #ffffff;
@@ -532,8 +533,8 @@ nav{
   }
 
   .tracking{
-    width: 420.24px;
-    height: 320.89px;
+    width: 380.24px;
+    height: 280.89px;
     border-radius: 20px;
     -webkit-box-shadow:9px 20px 20px #5597FC, inset 0px 0px 1px #ffffff,9px -8px 20px #5597FC, inset 0px 0px 1px #ffffff; 
     -moz-box-shadow: 9px 20px 20px #5597FC,  inset 0px 0px 1px #ffffff,9px -8px 20px #5597FC, inset 0px 0px 1px #ffffff;
@@ -550,7 +551,7 @@ nav{
 
   .trackingH2{
     color: rgba(34, 71, 175, 1);
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     /* font-family: Inter; */
     font-weight: 800;
@@ -563,7 +564,7 @@ nav{
 
   .trackingText{
     color: rgba(34, 71, 175, 1);
-    font-size: 18px;
+    font-size: 16px;
     align-self: auto;
     font-style: normal;
     text-align: left;
@@ -576,27 +577,27 @@ nav{
   }
 
   .trackingImg{
-    width: 88.68px;
-    height: 106.41px;
-    margin-bottom: 40px;
+    width: 78.68px;
+    height: 96.41px;
+    margin-bottom: 20px;
     margin-left: 5px;
   }
 
   .Advantages{
-    width: 1200px;
+    width: 1000px;
     height:auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 0px;
     padding-top: 35px;
   }
 
   .detailInfo{
-    width: 420.24px;
-    height: 320.89px;
+    width: 380.24px;
+    height: 280.89px;
     border-radius: 20px;
     -webkit-box-shadow:9px 20px 20px #5597FC, inset 0px 0px 1px #ffffff,9px -8px 20px #5597FC, inset 0px 0px 1px #ffffff; 
     -moz-box-shadow: 9px 20px 20px #5597FC,  inset 0px 0px 1px #ffffff,9px -8px 20px #5597FC, inset 0px 0px 1px #ffffff;
@@ -611,15 +612,15 @@ nav{
   }
 
   .detailInfoImg{
-    width: 88.68px;
-    height: 106.41px;
+    width: 78.68px;
+    height: 96.41px;
     margin-bottom: 40px;
     margin-left: 5px;
   }
 
   .detailInfoH2{
     color: rgba(34, 71, 175, 1);
-    font-size: 24px;
+    font-size: 22px;
     align-self: auto;
     font-style: normal;
     text-align: left;
@@ -633,7 +634,7 @@ nav{
 
   .detailInfoText{
     color: rgba(34, 71, 175, 1);
-    font-size: 20px;
+    font-size: 18px;
     align-self: auto;
     font-style: normal;
     text-align: left;
@@ -646,8 +647,8 @@ nav{
 }
 
 .emergencyCare{
-    width: 420.24px;
-    height: 320.89px;
+  width: 380.24px;
+  height: 280.89px;
     border-radius: 20px;
     -webkit-box-shadow:9px 20px 20px #5597FC, inset 0px 0px 1px #ffffff,9px -8px 20px #5597FC, inset 0px 0px 1px #ffffff; 
     -moz-box-shadow: 9px 20px 20px #5597FC,  inset 0px 0px 1px #ffffff,9px -8px 20px #5597FC, inset 0px 0px 1px #ffffff;
@@ -662,8 +663,8 @@ nav{
 }
 
 .emergencyCareImg{
-    width: 88.68px;
-    height: 70.94px;
+    width: 78.68px;
+    height: 60.94px;
     margin-bottom: 40px;
     margin-top: 30px;
     margin-left: 5px;
@@ -671,7 +672,7 @@ nav{
 
 .emergencyCareH2{
     color: rgba(34, 71, 175, 1);
-    font-size: 24px;
+    font-size: 22px;
     align-self: auto;
     text-align: left;
     /* font-family: Inter; */
@@ -684,7 +685,7 @@ nav{
 
 .emergencyCareText{
   color: rgba(34, 71, 175, 1);
-  font-size: 20px;
+  font-size: 18px;
   align-self: auto;
   font-style: normal;
   text-align: left;
@@ -698,7 +699,7 @@ nav{
 
 .pointsFourthSection{
   position:absolute;
-  top: 2955px;
+  top: 2925px;
   right:22.5%; 
   z-index: -1;
 }
@@ -721,7 +722,7 @@ nav{
   background-clip: text;
   width: 100%;
   height: auto;
-  font-size: 48px;
+  font-size: 45px;
   align-self: auto;
   text-align: center;
   /* font-family: Inter; */
@@ -750,8 +751,8 @@ nav{
 }
 
  #flastname{
-    width: 455px;
-    height: 100px;
+    width: 425px;
+    height: 90px;
     padding: 29.7px 49.6px;
     outline:none; 
     margin: 8px 0;
@@ -769,8 +770,8 @@ nav{
 } 
 
 #fname{
-  width: 455px;
-  height: 100px;
+  width: 425px;
+  height: 90px;
   padding: 31.67px 55.09px;
   outline:none; 
   margin: 8px 0;
@@ -787,8 +788,8 @@ nav{
 }
 
 #fmail{
-  width: 925px;
-  height: 100px;
+  width: 870px;
+  height: 90px;
   padding: 31.67px 55.09px;
   outline:none; 
   margin: 8px 0;
@@ -805,8 +806,8 @@ nav{
 }
 
 #ftel{
-  width: 925px;
-  height: 100px;
+  width: 870px;
+  height: 90px;
   padding: 31.67px 55.09px;
   outline:none; 
   margin: 8px 0;
@@ -828,7 +829,7 @@ input::placeholder{
 
 
 #fsubbutton{
-  width: 300px;
+  width: 275px;
   height: 72.86px;
   object-fit: cover;
   text-decoration:none; 
@@ -839,7 +840,6 @@ input::placeholder{
   -moz-border-radius:24px; 
   border-radius: 24px; 
   font-size: 25px;
-  /* font:25px Arial, Helvetica, sans-serif;  */
   font-weight:bold; 
   color:#427ad4; 
   background:#ffffff; 
@@ -887,7 +887,7 @@ input::placeholder{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; 
-  font-size: 48px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 800;
 }
