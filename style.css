@@ -1643,136 +1643,157 @@ footer h1{
   }
 
   
+  .Advantages{
+    width: 1000px;
+  }
+
+  
   .consultationH2{
-    font-size: 23px;
-    height:70px;
-    margin-left: 25px;
+    font-size: 20px;
+    height:60px;
+    margin-left: 5px;
+    padding: 0px;
   }
 
   .consultationText{
-    font-size: 20px;
-    margin-left: 25px;
+    font-size: 18px;
+    margin-left: 5px;
     margin-top: 0px;
     height:38.13px;
   }
 
   .consultationImg{
-    width:98.68px;
-    height: 116.41px;
-    margin-bottom: 20px;
-    margin-left: 25px;
+    width:68.68px;
+    height: 76.41px;
+    margin-bottom: 15px;
+    margin-left: 5px;
     margin-top: 6px;
   }
 
   .consultation{
-    width: 410.24px;
-    height: 340.89px;
+    width: 350.24px;
+    height: 280.89px;
+    padding-top: 25px;
   }
 
   .tracking{
-    width: 410.24px;
-    height: 340.89px;
+    width: 350.24px;
+    height: 280.89px;
+    padding-top: 25px;
   }
 
   .trackingH2{
-    font-size: 23px;
+    font-size: 20px;
     margin-top: -10px;
-    margin-left: 25px;
-    height: 65px;
+    margin-left: 5px;
+    height: 70px;
   }
 
   .trackingText{
-    font-size: 18px;
-    margin-left: 25px;
-    height: 95px;
+    font-size: 17px;
+    margin-left: 5px;
+    height: 105px;
   }
 
   .trackingImg{
-    width: 98.68px;
-    height: 116.41px;
-    margin-left: 25px;
-    margin-top: 6px;
+    width:68.68px;
+    height: 86.41px;
+    margin-left: 5px;
+    margin-bottom: 25px;
   }
 
   .detailInfo{
-    width: 410.24px;
-    height: 340.89px;
+    width: 350.24px;
+    height: 280.89px;
+    padding-top: 25px;
   }
 
   .detailInfoImg{
-    width: 98.68px;
-    height: 116.41px;
+    width: 68.68px;
+    height: 86.41px;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 5px;
   }
 
   .detailInfoH2{
-    font-size: 23px;
-    margin-left: 25px;
+    font-size: 20px;
+    margin-left: 5px;
+    height: 60px;
   }
 
   .detailInfoText{
-    font-size: 20px;
-    margin-left: 25px;
+    font-size: 18px;
+    margin-left: 5px;
     height: 39px;
 }
 
 .emergencyCare{
-  width: 410.24px;
-  height: 340.89px;
+  width: 350.24px;
+  height: 280.89px;
+  padding-top: 25px;
 }
 
 .emergencyCareImg{
-    width: 98.68px;
-    height: 80.94px;
-    margin-left: 25px;
+    width: 68.68px;
+    height: 60.94px;
+    margin-left: 5px;
 }
 
 .emergencyCareH2{
-    font-size: 23px;
-   margin-left: 25px;
-   margin-top: 25px;
+    font-size: 20px;
+   margin-left: 5px;
+   margin-top: 5px;
+   height: 60px;
 }
 
 .emergencyCareText{
-  font-size: 19px;
-  margin-left: 25px;
+  font-size: 17.5px;
+  margin-left: 5px;
   height: 40px;
 }
 
+.pointsFourthSection{
+  top: 2470px;
+}
 
 .fifthSection h1{
-  font-size: 40px;
-  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+#tembForm{
+  width: 800px;
 }
 
 
 #flastname{
-  width: 355px;
-  height: 90px;
+  width: 315px;
+  height: 70px;
+  font-size: 18px;
 } 
 
 #fname{
-  width: 355px;
-  height: 90px;
+  width: 315px;
+  height: 70px;
+  font-size: 18px;
 }
 
 #fmail{
-  width: 725px;
-  height: 90px;
+  width: 650px;
+  height: 70px;
+  font-size: 18px;
 }
 
 #ftel{
-  width: 725px;
-  height: 90px;
-
+  width: 650px;
+  height: 70px;
+  font-size: 18px;
 }
 
 
 #fsubbutton{
-  width: 250px;
-  height: 72.86px;
-  font-size: 23px;
+  width: 240px;
+  height: 65.86px;
+  font-size: 20px;
 }
 
 
