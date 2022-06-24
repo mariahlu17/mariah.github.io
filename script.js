@@ -12,7 +12,7 @@ const animation = document.querySelector(".animation")
 
 let w = window.outerWidth;
 
-if(w < 1321){
+if(w < 1450){
     animation.style.backgroundImage ="url('./animationTextSmall.png')";
     animation.style.height = '65px';
 }
