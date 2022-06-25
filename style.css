@@ -2353,5 +2353,9 @@ font-size: 33px;
       top: 3115px;
       right: 28%;
     }
+    
+    .buttonSecondSection{
+      height: 100px;
+    }
 
   }
