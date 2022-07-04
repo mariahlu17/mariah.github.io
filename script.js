@@ -8,20 +8,7 @@ const answerSecond = document.querySelector(".answerSecond")
 const answerThird = document.querySelector(".answerThird")
 const answerFourth = document.querySelector(".answerFourth")
 const answerFifth = document.querySelector(".answerFifth")
-const animation = document.querySelector(".animation")
 const thirdSectionAnimationFirst=document.querySelector(".thirdSectionAnimationFirst")
-
-let w = window.outerWidth;
-
-if(w < 1450){
-    animation.style.backgroundImage ="url('./animationTextSmall.png')";
-    animation.style.height = '65px';
-}
-else{
-    animation.style.backgroundImage ="url('./animationText.png')";
-    animation.style.height = '95px';
-}
-
 
 
 function questionFirstShow(){
@@ -65,4 +52,7 @@ questionThird.addEventListener('click',questionThirdShow)
 questionFourth.addEventListener('click',questionFourthShow)
 questionFifth.addEventListener('click',questionFifthShow)
 thirdSectionAnimationFirst.addEventListener('click',thirdSectionLightAnimation)
+
+
+
 
